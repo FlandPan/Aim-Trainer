@@ -11,8 +11,5 @@ public class MainGUI : MonoBehaviour
         gameObject.SetActive(false);
         settings.SetActive(true);
     }
-    void Start()
-    {
-        
-    }
+
 }
