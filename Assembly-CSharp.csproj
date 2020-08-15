@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\Settings2.cs" />
      <Compile Include="Assets\Scripts\Shoot.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Stats.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\Target2.cs" />
  <Reference Include="Unity.Timeline.Editor">

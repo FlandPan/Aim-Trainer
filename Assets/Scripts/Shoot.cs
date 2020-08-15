@@ -15,9 +15,11 @@ public class Shoot : MonoBehaviour
         if(Input.GetMouseButtonDown(0)){
             Vector3 rayOrigin = cam.ViewportToWorldPoint(new Vector3(0.5f,0.5f,0));
             RaycastHit hit;
+            Stats.OnShot();
 
             if(Physics.Raycast(rayOrigin,cam.transform.forward, out hit)){
                 if(hit.collider.gameObject.tag == "Hittable"){
+                    Stats.OnHit();
                     Destroy(hit.collider.gameObject);
                 }
             }

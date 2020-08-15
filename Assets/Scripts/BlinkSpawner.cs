@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlinkSpawner : MonoBehaviour
 {
-    float width = 20;
+    float width = 15;
     float length = 30;
     Vector3 currPosition;
     public GameObject sphere;
